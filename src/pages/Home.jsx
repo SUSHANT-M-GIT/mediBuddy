@@ -72,12 +72,15 @@ function Home() {
     <div>
       <div className="header">
         <h1>MediBuddy</h1>
-        <p>Search medicines using the FDA Drug Label database</p>
+      </div>
+
+      <div className="hero">
+        <h2>Find any <span>medicine</span> instantly</h2>
+        <p>Search using brand names from the FDA Drug Label database</p>
+        <SearchBar onSearch={handleSearch} loading={loading} />
       </div>
 
       <div className="container">
-        <SearchBar onSearch={handleSearch} loading={loading} />
-
         {loading && (
           <div className="status-msg">Searching…</div>
         )}
