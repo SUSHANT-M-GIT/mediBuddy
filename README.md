@@ -4,6 +4,9 @@ MediBuddy is a simple web app where you can search for medicines by brand name a
 
 ---
 
+# LIVE URL
+https://assesment-medi-buddy.vercel.app/
+
 ## Features
 
 - Search medicines by brand name
