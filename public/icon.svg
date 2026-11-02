@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="MediBuddy">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a8bff"/>
+      <stop offset="1" stop-color="#0f55c4"/>
+    </linearGradient>
+    <linearGradient id="cross" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f1ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <ellipse cx="200" cy="150" rx="170" ry="110" fill="#ffffff" opacity="0.10"/>
+  <g fill="url(#cross)">
+    <rect x="212" y="120" width="88" height="272" rx="22"/>
+    <rect x="120" y="212" width="272" height="88" rx="22"/>
+  </g>
+</svg>
